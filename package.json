@@ -1,6 +1,6 @@
 {
-  "name": "mocha",
-  "version": "6.2.0-uncaught",
+  "name": "@geosolutions/mocha",
+  "version": "6.2.1",
   "description": "simple, flexible, fun test framework",
   "keywords": [
     "mocha",
@@ -105,7 +105,7 @@
     "Christoph Neuroth <christoph.neuroth@gmail.com>",
     "Christopher Hiller <boneskull@boneskull.com>",
     "ChrisWren <cthewren@gmail.com>",
-    "claudyus <claudyus@HEX.(none)>",
+    "claudyus <claudyus@HEX.(none)> (none)",
     "Connor Dunn <connorhd@gmail.com>",
     "Corey Butler <corey@coreybutler.com>",
     "Corey Farrell <git@cfware.com>",
@@ -222,7 +222,7 @@
     "Jean Ponchon <gelule@gmail.com>",
     "Jeff Kunkle <jeff.kunkle@nearinfinity.com>",
     "Jeff Schilling <jeff.schilling@q2ebanking.com>",
-    "JeongHoon Byun (aka Outsider) <outsideris@gmail.com>",
+    "JeongHoon Byun <outsideris@gmail.com> (aka Outsider)",
     "Jérémie Astori <jeremie@astori.fr>",
     "Jeremy Martin <jmar777@gmail.com>",
     "Jerry Muzsik <jerrymuzsik@icloud.com>",
@@ -486,7 +486,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mochajs/mocha.git"
+    "url": "git+https://github.com/geosolutions-it/mocha.git"
   },
   "bugs": {
     "url": "https://github.com/mochajs/mocha/issues/"
@@ -499,8 +499,10 @@
     "_mocha": "./bin/_mocha"
   },
   "directories": {
-    "lib": "./lib",
-    "test": "./test"
+    "doc": "docs",
+    "example": "example",
+    "lib": "lib",
+    "test": "test"
   },
   "engines": {
     "node": ">= 6.0.0"
@@ -635,5 +637,6 @@
     "hooks": {
       "pre-commit": "lint-staged"
     }
-  }
+  },
+  "main": "index.js"
 }

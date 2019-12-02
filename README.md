@@ -1,3 +1,8 @@
+# Fork info
+This repo has been forked because we needed to add [this](https://github.com/geosolutions-it/mocha/tree/b2631f270a8231dd4e76d2eba5ec800a348d832e) fix
+We are going to publish the **release** branch on npm geosolutions registry
+
+
 <p align="center">
   <img src="https://cldup.com/xFVFxOioAU.svg" alt="Mocha test framework"/>
 </p>
