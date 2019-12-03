@@ -6357,7 +6357,7 @@ Runner.prototype.run = function(fn) {
   fn = fn || function() {};
 
   function uncaught(err) {
-    self.uncaught(err);
+    // self.uncaught(err);
   }
 
   function start() {
@@ -18403,7 +18403,7 @@ function hasOwnProperty(obj, prop) {
 },{"./support/isBuffer":89,"_process":70,"inherits":56}],91:[function(require,module,exports){
 module.exports={
   "name": "@geosolutions/mocha",
-  "version": "6.2.1",
+  "version": "6.2.1-2",
   "homepage": "https://mochajs.org/",
   "notifyLogo": "https://ibin.co/4QuRuGjXvl36.png"
 }
